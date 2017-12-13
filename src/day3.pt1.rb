@@ -56,15 +56,3 @@ mid = ((s[0] + s[1]) / 2)
 dist = (INPUT - mid).abs
 
 p (dist + find_index_of_root(INPUT))
-
-
-
-
-
-=begin
-
-- start with sq = 1.
-- if sq == 1, then return 0
-- if sq > 1, then sq
-
-=end
